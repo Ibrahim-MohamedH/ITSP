@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loc-Camp</title>
+    <!-- bootstrap 5.3.2 -->
+    <link
+      rel="stylesheet"
+      href="./assests/vendors/bootstrap/css/bootstrap.min.css"
+    />
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="./assests/vendors/font-awesome/all.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./assests/css/main.css" />
+    <link class="theme" rel="stylesheet" href="./assests/css/light.css" />
+  </head>
+  <body>
+    <!-- ===== Navbar ===== -->
+    <nav class="navbar navbar-expand-lg fixed-top px-lg-4 px-md-1 px-2">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="./index.html">
+          <svg
+            id="logo-86"
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="ccustom"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M25.5557 11.6853C23.9112 10.5865 21.9778 10 20 10V0C23.9556 0 27.8224 1.17298 31.1114 3.37061C34.4004 5.56823 36.9638 8.69181 38.4776 12.3463C39.9913 16.0008 40.3874 20.0222 39.6157 23.9018C38.844 27.7814 36.9392 31.3451 34.1421 34.1421C31.3451 36.9392 27.7814 38.844 23.9018 39.6157C20.0222 40.3874 16.0008 39.9913 12.3463 38.4776C8.69181 36.9638 5.56823 34.4004 3.37061 31.1114C1.17298 27.8224 0 23.9556 0 20H10C10 21.9778 10.5865 23.9112 11.6853 25.5557C12.7841 27.2002 14.3459 28.4819 16.1732 29.2388C18.0004 29.9957 20.0111 30.1937 21.9509 29.8078C23.8907 29.422 25.6725 28.4696 27.0711 27.0711C28.4696 25.6725 29.422 23.8907 29.8078 21.9509C30.1937 20.0111 29.9957 18.0004 29.2388 16.1732C28.4819 14.3459 27.2002 12.7841 25.5557 11.6853Z"
+              fill="#007DFC"
+            ></path>
+            <path
+              class="ccustom"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M10 5.16562e-07C10 1.31322 9.74135 2.61358 9.2388 3.82683C8.73625 5.04009 7.99966 6.14248 7.07107 7.07107C6.14249 7.99966 5.0401 8.73625 3.82684 9.2388C2.61358 9.74134 1.31322 10 5.4439e-06 10L5.00679e-06 20C2.62644 20 5.22716 19.4827 7.65368 18.4776C10.0802 17.4725 12.285 15.9993 14.1421 14.1421C15.9993 12.285 17.4725 10.0802 18.4776 7.65367C19.4827 5.22715 20 2.62643 20 -3.81469e-06L10 5.16562e-07Z"
+              fill="#007DFC"
+            ></path>
+          </svg>
+
+          Logoipsum
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item me-2">
+              <a
+                class="nav-link px-lg-2 px-1"
+                aria-current="page"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item me-2">
+              <a
+                class="nav-link px-lg-2 px-1"
+                aria-current="page"
+                href="./aboutUs.html"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item me-2">
+              <a
+                class="nav-link px-lg-2 px-1"
+                aria-current="page"
+                href="./category.html"
+                >Solutions</a
+              >
+            </li>
+            <li class="nav-item me-2">
+              <a
+                class="nav-link px-lg-2 px-1"
+                aria-current="page"
+                href="./category.html"
+                >Resources</a
+              >
+            </li>
+            <li class="nav-item me-2">
+              <a
+                class="nav-link px-lg-2 px-1"
+                aria-current="page"
+                href="./jobSearch.html"
+                >Careers</a
+              >
+            </li>
+            <li class="nav-item me-2">
+              <a
+                class="nav-link px-lg-2 px-1"
+                aria-current="page"
+                href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item me-2">
+              <a
+                class="nav-link px-lg-2 px-1"
+                aria-current="page"
+                href="./reels.html"
+                >Reels</a
+              >
+            </li>
+            <li class="nav-item me-2">
+              <a
+                class="nav-link px-lg-2 px-1"
+                aria-current="page"
+                href="./contact-us.html"
+                >Contact Us</a
+              >
+            </li>
+            <li class="nav-item me-2 d-flex align-items-center">
+              <button class="btn themeBtn light px-lg-2 px-1 py-1">
+                <i class="fa-regular fa-lightbulb"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ===== End of Navbar ===== -->
+    <!-- ===== Main ===== -->
+    <main class="mt-5 pt-3">
+      <section id="jobDetails" class="py-5">
+        <div class="container py-5">
+          <h2 class="fw-semibold"><span>UI UX Designer</span></h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Nulla felis consectetur
+            aliquet neque condimentum non. Sed sagittis libero condimentum
+            bibendum venenatis. Nulla feugiat ut proin facilisis in at et sit.
+            In est semper aliquet porta ultricies. Elementum blandit sed risus
+            amet non.
+          </p>
+          <div class="row mb-3">
+            <div class="col-xxl-1 col-lg-2 col-md-3 fw-medium mb-lg-0 mb-3">
+              <i class="fa-solid fa-bag-shopping"></i> <span>Junior</span>
+            </div>
+            <div
+              class="col-xxl-1 col-lg-2 px-lg-0 col-md-9 fw-medium mb-lg-0 mb-3"
+            >
+              <i class="fa-regular fa-clock"></i> <span>Full-time</span>
+            </div>
+            <div
+              class="col-xxl-1 col-lg-2 col-md-3 pe-lg-0 fw-medium mb-lg-0 mb-3"
+            >
+              <i class="fa-regular fa-building"></i> <span>On Site</span>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-9 fw-medium mb-lg-0 mb-3">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>Computer Science</span>
+            </div>
+          </div>
+          <h3 class="fw-semibold">
+            <span>Salary range: E£ 20000-150000</span>
+          </h3>
+        </div>
+      </section>
+      <section id="jobReq" class="py-5">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-lg-4 mb-lg-0 mb-3">
+              <h2 class="fw-semibold mb-3"><span>Skills</span></h2>
+              <ul>
+                <li>Communication skills (verbal and written)</li>
+                <li>Team collaboration</li>
+                <li>Problem-solving and critical thinking</li>
+                <li>Emotional intelligence</li>
+                <li>Conflict resolution</li>
+              </ul>
+            </div>
+            <div class="col-lg-5 mb-lg-0 mb-3">
+              <h2 class="fw-semibold mb-3"><span>Requirements</span></h2>
+              <p>
+                Proven experience as a Senior UI/UX Designer or similar role.
+                Proficiency in Figma and other relevant design tools. Strong
+                portfolio showcasing a range of design projects.
+              </p>
+            </div>
+            <div class="col-lg-3 align-self-center">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <button class="btn apply col-lg-11 py-3 mb-3">Apply</button>
+                  <a href="#" class="btn col-lg-11 py-3">Share</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="apply" class="hidden">
+      <div class="layout pb-5">
+        <div class="container-fluid pb-5 pt-3 mb-3">
+          <span class="float-end">
+            <i class="fa-regular fa-circle-xmark"></i
+          ></span>
+        </div>
+        <form class="container col-lg-6 col-md-8 py-4 px-md-4 px-2">
+          <h2 class="text-center fw-bold"><span>Apply Now</span></h2>
+          <div class="form-container py-3 px-md-5 px-2 rounded-3 mb-5">
+            <div class="form-group mb-3">
+              <label for="exp" class="form-label">
+                <span class="fw-bold">Years of experience</span>
+              </label>
+              <input
+                type="text"
+                class="form-control"
+                id="exp"
+                placeholder="0"
+              />
+            </div>
+            <iframe
+              width="100%"
+              height="600"
+              src="https://pdfobject.com/pdf/sample.pdf"
+              class="rounded-3 mb-3"
+              frameborder="0"
+            ></iframe>
+            <div class="form-group mb-3 text-center">
+              <label for="cv" class="text-center d-block p-2 rounded-3">
+                <span class="fs-4"
+                  ><i class="fa-solid fa-gear"></i> Resume options</span
+                >
+              </label>
+              <input type="file" hidden class="form-control" id="cv" />
+            </div>
+          </div>
+          <div class="form-group text-center">
+            <button class="btn py-2 col-12">
+              Next <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="summary" class="hidden">
+      <div class="layout pb-5">
+        <div class="container-fluid pb-5 pt-3 mb-3">
+          <span class="float-end">
+            <i class="fa-regular fa-circle-xmark"></i
+          ></span>
+        </div>
+        <div
+          class="user-summary container col-lg-6 col-md-8 col-11 px-0 rounded-3"
+        >
+          <h2 class="text-center mb-3 rounded-3 py-3 fw-bold">
+            <span>Preview Summary</span>
+          </h2>
+
+          <div class="contact-info py-3 px-md-5 px-4">
+            <h5 class="fw-bold mb-3">Contact Information</h5>
+            <div class="row form-group">
+              <div class="col-md-6 mb-3">
+                <label>Full Name</label>
+                <span class="d-block form-control px-0 fw-bold"
+                  >Zeyad.abdelazim</span
+                >
+              </div>
+              <div class="col-md-6 mb-3">
+                <label>Email</label>
+                <span class="d-block form-control px-0 fw-bold"
+                  >Zeyad98@gmail.com</span
+                >
+              </div>
+              <div class="col-md-6 mb-3">
+                <label>Phone Number</label>
+                <span class="d-block form-control px-0 fw-bold"
+                  >011387339292</span
+                >
+              </div>
+              <div class="col-md-6 mb-3">
+                <label>Gender</label>
+                <span class="d-block form-control px-0 fw-bold">Male</span>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label>City</label>
+                <span class="d-block form-control px-0 fw-bold">Giza</span>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label>Area</label>
+                <span class="d-block form-control px-0 fw-bold">Haram</span>
+              </div>
+            </div>
+            <h5 class="fw-bold mb-3">Application Details</h5>
+            <div class="row form-group">
+              <div class="col-12 mb-3">
+                <label>Cv</label>
+                <span class="d-block form-control px-0 fw-bold"
+                  >Zeyad abdelazim CV.pdf</span
+                >
+              </div>
+            </div>
+            <h5 class="fw-bold mb-3">Question answer</h5>
+            <div class="row form-group">
+              <div class="col-12 mb-3">
+                <label>what is you noticed period?</label>
+                <span class="d-block form-control px-0 fw-bold">2 weeks</span>
+              </div>
+              <div class="col-12 mb-3">
+                <label
+                  >What is your current monthly salary in local currency?</label
+                >
+                <span class="d-block form-control px-0 fw-bold">20000</span>
+              </div>
+              <div class="col-12 mb-3">
+                <label>what is you noticed period?</label>
+                <span class="d-block form-control px-0 fw-bold"
+                  >Ensure accuracy, completeness, and compliance of financial
+                  data.</span
+                >
+              </div>
+              <div class="col-12 mb-3">
+                <label>what is you noticed period?</label>
+                <span class="d-block form-control px-0 fw-bold"
+                  >Ensure accuracy, completeness, and compliance of financial
+                  data.</span
+                >
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 mb-md-0 mb-3 text-light">
+                <button class="btn prev col-12 fw-semibold py-2">
+                  <i class="fa-solid fa-chevron-left"></i> Previous
+                </button>
+              </div>
+              <div class="col-md-4 text-center">
+                <a
+                  href="./jobSearchCategory.html"
+                  class="btn col-12 fw-semibold py-2"
+                  >Browes other jobs <i class="fa-solid fa-question"></i
+                ></a>
+              </div>
+              <div class="col-md-4 text-center mb-md-0 mb-3">
+                <button class="btn submit col-12 fw-semibold py-2">
+                  Submit <i class="fa-regular fa-circle-check"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ===== End Of Main ===== -->
+    <!-- ===== Footer ===== -->
+    <footer class="py-4">
+      <div class="container px-lg-5 px-sm-2">
+        <div class="navbar navbar-expand-md mb-3">
+          <div class="container text-md-start text-center">
+            <a class="navbar-brand col-md-3 col-12" href="#">
+              <svg
+                id="logo-86"
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="ccustom"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M25.5557 11.6853C23.9112 10.5865 21.9778 10 20 10V0C23.9556 0 27.8224 1.17298 31.1114 3.37061C34.4004 5.56823 36.9638 8.69181 38.4776 12.3463C39.9913 16.0008 40.3874 20.0222 39.6157 23.9018C38.844 27.7814 36.9392 31.3451 34.1421 34.1421C31.3451 36.9392 27.7814 38.844 23.9018 39.6157C20.0222 40.3874 16.0008 39.9913 12.3463 38.4776C8.69181 36.9638 5.56823 34.4004 3.37061 31.1114C1.17298 27.8224 0 23.9556 0 20H10C10 21.9778 10.5865 23.9112 11.6853 25.5557C12.7841 27.2002 14.3459 28.4819 16.1732 29.2388C18.0004 29.9957 20.0111 30.1937 21.9509 29.8078C23.8907 29.422 25.6725 28.4696 27.0711 27.0711C28.4696 25.6725 29.422 23.8907 29.8078 21.9509C30.1937 20.0111 29.9957 18.0004 29.2388 16.1732C28.4819 14.3459 27.2002 12.7841 25.5557 11.6853Z"
+                  fill="#007DFC"
+                ></path>
+                <path
+                  class="ccustom"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M10 5.16562e-07C10 1.31322 9.74135 2.61358 9.2388 3.82683C8.73625 5.04009 7.99966 6.14248 7.07107 7.07107C6.14249 7.99966 5.0401 8.73625 3.82684 9.2388C2.61358 9.74134 1.31322 10 5.4439e-06 10L5.00679e-06 20C2.62644 20 5.22716 19.4827 7.65368 18.4776C10.0802 17.4725 12.285 15.9993 14.1421 14.1421C15.9993 12.285 17.4725 10.0802 18.4776 7.65367C19.4827 5.22715 20 2.62643 20 -3.81469e-06L10 5.16562e-07Z"
+                  fill="#007DFC"
+                ></path>
+              </svg>
+
+              Logoipsum
+            </a>
+            <div id="navbarSupportedContent" class="col-md col-12">
+              <ul
+                class="navbar-nav justify-content-md-end justify-content-center mb-2 mb-lg-0"
+              >
+                <li class="nav-item me-2 mb-2">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item me-2 mb-2 dropdown">
+                  <a
+                    class="nav-link"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    About Us
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">About Us 1</a></li>
+                    <li><a class="dropdown-item" href="#">About Us 2</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item me-2 mb-2">
+                  <a class="nav-link" aria-current="page" href="#">Services</a>
+                </li>
+                <li class="nav-item me-2 mb-2">
+                  <a
+                    class="nav-link"
+                    aria-current="page"
+                    href="./contact-us.html"
+                    >Contact Us</a
+                  >
+                </li>
+                <li class="nav-item me-2 mb-2">
+                  <a class="nav-link scroll-top" aria-current="page"
+                    ><i class="fa-solid fa-chevron-up"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row px-3">
+          <div
+            class="col-md-6 col-12 order-sm-1 order-2 text-md-start text-center"
+          >
+            © 2024 — Loc-camp All Rights Reserved
+          </div>
+          <div
+            class="col-md-6 col-12 order-sm-2 order-1 text-md-end text-center mb-sm-0 mb-3"
+          >
+            <i class="fa-regular fa-envelope"></i> example@gamil.com
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ===== End Of Footer ===== -->
+    <!-- Scripts -->
+    <script>
+      let applyBtn = document.querySelector(".apply");
+      let mainForm = document.querySelector("#apply");
+      let form = document.querySelector("#apply form");
+      let closeForm = document.querySelector("#apply i");
+      let summary = document.querySelector("#summary");
+      let applyBtn2 = document.querySelector("#apply button");
+      let summaryBtn = document.querySelectorAll("#summary button");
+      let closesummary = document.querySelector("#summary i");
+
+      applyBtn.addEventListener("click", () => {
+        mainForm.classList.remove("hidden");
+      });
+      closeForm.addEventListener("click", () => {
+        mainForm.classList.add("hidden");
+      });
+      closesummary.addEventListener("click", () => {
+        summary.classList.add("hidden");
+      });
+      applyBtn2.addEventListener("click", (e) => {
+        e.preventDefault();
+        mainForm.classList.add("hidden");
+        summary.classList.remove("hidden");
+      });
+      summaryBtn[0].addEventListener("click", (e) => {
+        e.preventDefault();
+        summary.classList.add("hidden");
+        mainForm.classList.remove("hidden");
+      });
+      summaryBtn[1].addEventListener("click", () => {
+        summary.classList.add("hidden");
+        form.submit();
+      });
+    </script>
+    <!-- bootstrap JS 5.3.2 -->
+    <script src="./assests/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- main JS -->
+    <script src="./assests/js/main.js"></script>
+  </body>
+</html>

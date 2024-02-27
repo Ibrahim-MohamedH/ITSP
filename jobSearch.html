@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loc-Camp</title>
+    <!-- bootstrap 5.3.2 -->
+    <link
+      rel="stylesheet"
+      href="./assests/vendors/bootstrap/css/bootstrap.min.css"
+    />
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="./assests/vendors/font-awesome/all.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./assests/css/main.css" />
+    <link class="theme" rel="stylesheet" href="./assests/css/light.css" />
+  </head>
+  <body>
+    <!-- ===== Navbar ===== -->
+    <nav class="navbar navbar-expand-lg fixed-top px-lg-4 px-md-1 px-2">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="./index.html">
+          <svg
+            id="logo-86"
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="ccustom"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M25.5557 11.6853C23.9112 10.5865 21.9778 10 20 10V0C23.9556 0 27.8224 1.17298 31.1114 3.37061C34.4004 5.56823 36.9638 8.69181 38.4776 12.3463C39.9913 16.0008 40.3874 20.0222 39.6157 23.9018C38.844 27.7814 36.9392 31.3451 34.1421 34.1421C31.3451 36.9392 27.7814 38.844 23.9018 39.6157C20.0222 40.3874 16.0008 39.9913 12.3463 38.4776C8.69181 36.9638 5.56823 34.4004 3.37061 31.1114C1.17298 27.8224 0 23.9556 0 20H10C10 21.9778 10.5865 23.9112 11.6853 25.5557C12.7841 27.2002 14.3459 28.4819 16.1732 29.2388C18.0004 29.9957 20.0111 30.1937 21.9509 29.8078C23.8907 29.422 25.6725 28.4696 27.0711 27.0711C28.4696 25.6725 29.422 23.8907 29.8078 21.9509C30.1937 20.0111 29.9957 18.0004 29.2388 16.1732C28.4819 14.3459 27.2002 12.7841 25.5557 11.6853Z"
+              fill="#007DFC"
+            ></path>
+            <path
+              class="ccustom"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M10 5.16562e-07C10 1.31322 9.74135 2.61358 9.2388 3.82683C8.73625 5.04009 7.99966 6.14248 7.07107 7.07107C6.14249 7.99966 5.0401 8.73625 3.82684 9.2388C2.61358 9.74134 1.31322 10 5.4439e-06 10L5.00679e-06 20C2.62644 20 5.22716 19.4827 7.65368 18.4776C10.0802 17.4725 12.285 15.9993 14.1421 14.1421C15.9993 12.285 17.4725 10.0802 18.4776 7.65367C19.4827 5.22715 20 2.62643 20 -3.81469e-06L10 5.16562e-07Z"
+              fill="#007DFC"
+            ></path>
+          </svg>
+
+          Logoipsum
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item me-2">
+              <a
+                class="nav-link px-lg-2 px-1"
+                aria-current="page"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item me-2">
+              <a
+                class="nav-link px-lg-2 px-1"
+                aria-current="page"
+                href="./aboutUs.html"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item me-2">
+              <a
+                class="nav-link px-lg-2 px-1"
+                aria-current="page"
+                href="./category.html"
+                >Solutions</a
+              >
+            </li>
+            <li class="nav-item me-2">
+              <a
+                class="nav-link px-lg-2 px-1"
+                aria-current="page"
+                href="./category.html"
+                >Resources</a
+              >
+            </li>
+            <li class="nav-item me-2">
+              <a
+                class="nav-link px-lg-2 px-1"
+                aria-current="page"
+                href="./jobSearch.html"
+                >Careers</a
+              >
+            </li>
+            <li class="nav-item me-2">
+              <a
+                class="nav-link px-lg-2 px-1"
+                aria-current="page"
+                href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item me-2">
+              <a
+                class="nav-link px-lg-2 px-1"
+                aria-current="page"
+                href="./reels.html"
+                >Reels</a
+              >
+            </li>
+            <li class="nav-item me-2">
+              <a
+                class="nav-link px-lg-2 px-1"
+                aria-current="page"
+                href="./contact-us.html"
+                >Contact Us</a
+              >
+            </li>
+            <li class="nav-item me-2 d-flex align-items-center">
+              <button class="btn themeBtn light px-lg-2 px-1 py-1">
+                <i class="fa-regular fa-lightbulb"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ===== End of Navbar ===== -->
+    <!-- ===== Main ===== -->
+    <main class="mt-5 pt-3">
+      <section id="jobSearch">
+        <div class="container-fluid py-5">
+          <div class="container mb-5 pb-5 fw-bold">
+            <h1 class="text-center pb-5">
+              <span>we ‘re - </span> <br />
+              <span class="ms-5 ps-5"
+                ><i class="fa-solid fa-arrow-right"></i> hiring.</span
+              >
+            </h1>
+            <form action="" method="get">
+              <div class="row align-items-end">
+                <div class="form-group mb-lg-0 mb-3 col-lg-5 col-md-12">
+                  <label for="searchInput" class="form-label">Job</label>
+                  <input
+                    type="text"
+                    name="search"
+                    id="searchInput"
+                    class="form-control"
+                    placeholder="Job Title"
+                  />
+                </div>
+                <div class="form-group mb-lg-0 mb-3 col-lg-3 col-md-6">
+                  <label for="categoryInput" class="form-label">category</label>
+                  <select
+                    class="form-select"
+                    name="category"
+                    id="categoryInput"
+                  >
+                    <option value="software house">Software House</option>
+                    <option value="business">Business</option>
+                    <option value="marketing">Marketing</option>
+                    <option value="e-marketing">E-Marketing</option>
+                  </select>
+                </div>
+                <div class="form-group mb-lg-0 mb-3 col-lg-3 col-md-6">
+                  <label for="jobStatusInput" class="form-label"
+                    >Job Status</label
+                  >
+                  <select class="form-select" name="status" id="jobStatusInput">
+                    <option value="on-site">on-site</option>
+                    <option value="remotely">remotely</option>
+                    <option value="hybrid">hybrid</option>
+                  </select>
+                </div>
+                <div class="form-group col-lg-1 px-lg-0 text-end">
+                  <button class="btn fw-semibold px-lg-0 px-4 col-lg-12">
+                    <i class="fa-solid fa-magnifying-glass"></i> Search
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section id="jobResults" class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center mb-4 top-text">
+              <h2 class="col-lg-6 col-md-8 col-12 mx-auto fs-1 fw-bold">
+                <span>Jobs</span>
+              </h2>
+              <p class="col-lg-5 col-md-7 mx-auto">
+                Welcome to the job page, your ultimate destination for
+                unleashing creativity through captivating short-form videos!
+              </p>
+              <a href="#" class="btn rounded-3 px-4 py-2">View Applications</a>
+            </div>
+            <!-- Start of card -->
+            <div class="col-lg-6 mb-3">
+              <div class="card mb-3">
+                <div class="row g-0 align-items-center">
+                  <div class="col-4 p-3">
+                    <img
+                      src="./assests/images/Software_house.jpg"
+                      class="img-fluid rounded-3"
+                    />
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body">
+                      <h2 class="card-title">software house</h2>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <a href="./jobSearchCategory.html"
+                      ><div class="card-footer text-center">
+                        View all avalible jobs
+                      </div></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End of card -->
+            <div class="col-lg-6 mb-3">
+              <div class="card mb-3">
+                <div class="row g-0 align-items-center">
+                  <div class="col-4 p-3">
+                    <img
+                      src="./assests/images/marketing.jpg"
+                      class="img-fluid rounded-3"
+                    />
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body">
+                      <h2 class="card-title">Marketing</h2>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <a href="./jobSearchCategory.html"
+                      ><div class="card-footer text-center">
+                        View all avalible jobs
+                      </div></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-3">
+              <div class="card mb-3">
+                <div class="row g-0 align-items-center">
+                  <div class="col-4 p-3">
+                    <img
+                      src="./assests/images/Software_house.jpg"
+                      class="img-fluid rounded-3"
+                    />
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body">
+                      <h2 class="card-title">software house</h2>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <a href="./jobSearchCategory.html"
+                      ><div class="card-footer text-center">
+                        View all avalible jobs
+                      </div></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-3">
+              <div class="card mb-3">
+                <div class="row g-0 align-items-center">
+                  <div class="col-4 p-3">
+                    <img
+                      src="./assests/images/marketing.jpg"
+                      class="img-fluid rounded-3"
+                    />
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body">
+                      <h2 class="card-title">Marketing</h2>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <a href="./jobSearchCategory.html"
+                      ><div class="card-footer text-center">
+                        View all avalible jobs
+                      </div></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- ===== End Of Main ===== -->
+    <!-- ===== Footer ===== -->
+    <footer class="py-4">
+      <div class="container px-lg-5 px-sm-2">
+        <div class="navbar navbar-expand-md mb-3">
+          <div class="container text-md-start text-center">
+            <a class="navbar-brand col-md-3 col-12" href="#">
+              <svg
+                id="logo-86"
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="ccustom"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M25.5557 11.6853C23.9112 10.5865 21.9778 10 20 10V0C23.9556 0 27.8224 1.17298 31.1114 3.37061C34.4004 5.56823 36.9638 8.69181 38.4776 12.3463C39.9913 16.0008 40.3874 20.0222 39.6157 23.9018C38.844 27.7814 36.9392 31.3451 34.1421 34.1421C31.3451 36.9392 27.7814 38.844 23.9018 39.6157C20.0222 40.3874 16.0008 39.9913 12.3463 38.4776C8.69181 36.9638 5.56823 34.4004 3.37061 31.1114C1.17298 27.8224 0 23.9556 0 20H10C10 21.9778 10.5865 23.9112 11.6853 25.5557C12.7841 27.2002 14.3459 28.4819 16.1732 29.2388C18.0004 29.9957 20.0111 30.1937 21.9509 29.8078C23.8907 29.422 25.6725 28.4696 27.0711 27.0711C28.4696 25.6725 29.422 23.8907 29.8078 21.9509C30.1937 20.0111 29.9957 18.0004 29.2388 16.1732C28.4819 14.3459 27.2002 12.7841 25.5557 11.6853Z"
+                  fill="#007DFC"
+                ></path>
+                <path
+                  class="ccustom"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M10 5.16562e-07C10 1.31322 9.74135 2.61358 9.2388 3.82683C8.73625 5.04009 7.99966 6.14248 7.07107 7.07107C6.14249 7.99966 5.0401 8.73625 3.82684 9.2388C2.61358 9.74134 1.31322 10 5.4439e-06 10L5.00679e-06 20C2.62644 20 5.22716 19.4827 7.65368 18.4776C10.0802 17.4725 12.285 15.9993 14.1421 14.1421C15.9993 12.285 17.4725 10.0802 18.4776 7.65367C19.4827 5.22715 20 2.62643 20 -3.81469e-06L10 5.16562e-07Z"
+                  fill="#007DFC"
+                ></path>
+              </svg>
+
+              Logoipsum
+            </a>
+            <div id="navbarSupportedContent" class="col-md col-12">
+              <ul
+                class="navbar-nav justify-content-md-end justify-content-center mb-2 mb-lg-0"
+              >
+                <li class="nav-item me-2 mb-2">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item me-2 mb-2 dropdown">
+                  <a
+                    class="nav-link"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    About Us
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">About Us 1</a></li>
+                    <li><a class="dropdown-item" href="#">About Us 2</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item me-2 mb-2">
+                  <a class="nav-link" aria-current="page" href="#">Services</a>
+                </li>
+                <li class="nav-item me-2 mb-2">
+                  <a
+                    class="nav-link"
+                    aria-current="page"
+                    href="./contact-us.html"
+                    >Contact Us</a
+                  >
+                </li>
+                <li class="nav-item me-2 mb-2">
+                  <a class="nav-link scroll-top" aria-current="page"
+                    ><i class="fa-solid fa-chevron-up"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row px-3">
+          <div
+            class="col-md-6 col-12 order-sm-1 order-2 text-md-start text-center"
+          >
+            © 2024 — Loc-camp All Rights Reserved
+          </div>
+          <div
+            class="col-md-6 col-12 order-sm-2 order-1 text-md-end text-center mb-sm-0 mb-3"
+          >
+            <i class="fa-regular fa-envelope"></i> example@gamil.com
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ===== End Of Footer ===== -->
+    <!-- Scripts -->
+    <!-- bootstrap JS 5.3.2 -->
+    <script src="./assests/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- main JS -->
+    <script src="./assests/js/main.js"></script>
+  </body>
+</html>

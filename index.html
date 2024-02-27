@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loc-Camp</title>
+    <!-- bootstrap 5.3.2 -->
+    <link
+      rel="stylesheet"
+      href="./assests/vendors/bootstrap/css/bootstrap.min.css"
+    />
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="./assests/vendors/font-awesome/all.min.css" />
+    <!-- ===================
+      #  Injected in this page
+        =================== -->
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="./assests/vendors/swiper/swiper-bundle.min.css"
+    />
+    <!-- ===================
+      #  End of injection
+        =================== -->
+    <!-- main css -->
+    <link rel="stylesheet" href="./assests/css/main.css" />
+    <link class="theme" rel="stylesheet" href="./assests/css/light.css" />
+  </head>
+  <body>
+    <!-- ===== Navbar ===== -->
+    <nav class="navbar navbar-expand-lg fixed-top px-lg-4 px-md-1 px-2">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="./index.html">
+          <svg
+            id="logo-86"
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="ccustom"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M25.5557 11.6853C23.9112 10.5865 21.9778 10 20 10V0C23.9556 0 27.8224 1.17298 31.1114 3.37061C34.4004 5.56823 36.9638 8.69181 38.4776 12.3463C39.9913 16.0008 40.3874 20.0222 39.6157 23.9018C38.844 27.7814 36.9392 31.3451 34.1421 34.1421C31.3451 36.9392 27.7814 38.844 23.9018 39.6157C20.0222 40.3874 16.0008 39.9913 12.3463 38.4776C8.69181 36.9638 5.56823 34.4004 3.37061 31.1114C1.17298 27.8224 0 23.9556 0 20H10C10 21.9778 10.5865 23.9112 11.6853 25.5557C12.7841 27.2002 14.3459 28.4819 16.1732 29.2388C18.0004 29.9957 20.0111 30.1937 21.9509 29.8078C23.8907 29.422 25.6725 28.4696 27.0711 27.0711C28.4696 25.6725 29.422 23.8907 29.8078 21.9509C30.1937 20.0111 29.9957 18.0004 29.2388 16.1732C28.4819 14.3459 27.2002 12.7841 25.5557 11.6853Z"
+              fill="#007DFC"
+            ></path>
+            <path
+              class="ccustom"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M10 5.16562e-07C10 1.31322 9.74135 2.61358 9.2388 3.82683C8.73625 5.04009 7.99966 6.14248 7.07107 7.07107C6.14249 7.99966 5.0401 8.73625 3.82684 9.2388C2.61358 9.74134 1.31322 10 5.4439e-06 10L5.00679e-06 20C2.62644 20 5.22716 19.4827 7.65368 18.4776C10.0802 17.4725 12.285 15.9993 14.1421 14.1421C15.9993 12.285 17.4725 10.0802 18.4776 7.65367C19.4827 5.22715 20 2.62643 20 -3.81469e-06L10 5.16562e-07Z"
+              fill="#007DFC"
+            ></path>
+          </svg>
+
+          Logoipsum
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item me-2">
+              <a
+                class="nav-link px-lg-2 px-1"
+                aria-current="page"
+                href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item me-2">
+              <a
+                class="nav-link px-lg-2 px-1"
+                aria-current="page"
+                href="./aboutUs.html"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item me-2">
+              <a
+                class="nav-link px-lg-2 px-1"
+                aria-current="page"
+                href="./category.html"
+                >Solutions</a
+              >
+            </li>
+            <li class="nav-item me-2">
+              <a
+                class="nav-link px-lg-2 px-1"
+                aria-current="page"
+                href="./category.html"
+                >Resources</a
+              >
+            </li>
+            <li class="nav-item me-2">
+              <a
+                class="nav-link px-lg-2 px-1"
+                aria-current="page"
+                href="./jobSearch.html"
+                >Careers</a
+              >
+            </li>
+            <li class="nav-item me-2">
+              <a
+                class="nav-link px-lg-2 px-1"
+                aria-current="page"
+                href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item me-2">
+              <a
+                class="nav-link px-lg-2 px-1"
+                aria-current="page"
+                href="./reels.html"
+                >Reels</a
+              >
+            </li>
+            <li class="nav-item me-2">
+              <a
+                class="nav-link px-lg-2 px-1"
+                aria-current="page"
+                href="./contact-us.html"
+                >Contact Us</a
+              >
+            </li>
+            <li class="nav-item me-2 d-flex align-items-center">
+              <button class="btn themeBtn light px-lg-2 px-1 py-1">
+                <i class="fa-regular fa-lightbulb"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ===== End of Navbar ===== -->
+    <!-- ===== Main ===== -->
+    <main class="mt-5 pt-3">
+      <!-- Hero Start -->
+      <section id="hero" class="py-5">
+        <div class="container py-5 my-5">
+          <div class="row align-items-center">
+            <div
+              class="col-xl-5 col-lg-4 px-lg-5 mb-5 text-lg-start text-center"
+            >
+              <h1 class="fw-bold">
+                <svg
+                  id="logo-86"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 40 40"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    class="ccustom"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M25.5557 11.6853C23.9112 10.5865 21.9778 10 20 10V0C23.9556 0 27.8224 1.17298 31.1114 3.37061C34.4004 5.56823 36.9638 8.69181 38.4776 12.3463C39.9913 16.0008 40.3874 20.0222 39.6157 23.9018C38.844 27.7814 36.9392 31.3451 34.1421 34.1421C31.3451 36.9392 27.7814 38.844 23.9018 39.6157C20.0222 40.3874 16.0008 39.9913 12.3463 38.4776C8.69181 36.9638 5.56823 34.4004 3.37061 31.1114C1.17298 27.8224 0 23.9556 0 20H10C10 21.9778 10.5865 23.9112 11.6853 25.5557C12.7841 27.2002 14.3459 28.4819 16.1732 29.2388C18.0004 29.9957 20.0111 30.1937 21.9509 29.8078C23.8907 29.422 25.6725 28.4696 27.0711 27.0711C28.4696 25.6725 29.422 23.8907 29.8078 21.9509C30.1937 20.0111 29.9957 18.0004 29.2388 16.1732C28.4819 14.3459 27.2002 12.7841 25.5557 11.6853Z"
+                    fill="#007DFC"
+                  ></path>
+                  <path
+                    class="ccustom"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M10 5.16562e-07C10 1.31322 9.74135 2.61358 9.2388 3.82683C8.73625 5.04009 7.99966 6.14248 7.07107 7.07107C6.14249 7.99966 5.0401 8.73625 3.82684 9.2388C2.61358 9.74134 1.31322 10 5.4439e-06 10L5.00679e-06 20C2.62644 20 5.22716 19.4827 7.65368 18.4776C10.0802 17.4725 12.285 15.9993 14.1421 14.1421C15.9993 12.285 17.4725 10.0802 18.4776 7.65367C19.4827 5.22715 20 2.62643 20 -3.81469e-06L10 5.16562e-07Z"
+                    fill="#007DFC"
+                  ></path>
+                </svg>
+
+                <span>L</span><span>o</span><span>g</span><span>o</span
+                ><span>i</span><span>p</span><span>s</span><span>u</span
+                ><span>m</span>
+              </h1>
+              <p class="col-lg-12 col-md-6 m-auto">
+                Loc Camp is a fast-growing certified localization and
+                translation company that was established in 2013
+              </p>
+            </div>
+            <div class="col-xl-7 col-lg-8">
+              <!-- swiper here -->
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img
+                      class="img-fluid"
+                      src="./assests/images/hero_slider1.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="img-fluid"
+                      src="./assests/images/hero_slider2.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="img-fluid"
+                      src="./assests/images/hero_slider3.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="img-fluid"
+                      src="./assests/images/hero_slider4.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="img-fluid"
+                      src="./assests/images/hero_slider2.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="img-fluid"
+                      src="./assests/images/hero_slider3.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="img-fluid"
+                      src="./assests/images/hero_slider1.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Us Start -->
+      <section id="about-us" class="py-5">
+        <div class="container py-5 px-md-5">
+          <h4 class="fw-bold text-lg-start text-center mb-4">About Us</h4>
+          <div class="row align-items-center">
+            <div class="col-lg-7 order-lg-1 order-2">
+              <div class="vision px-5 py-4 mb-4">
+                <h5 class="mb-3 fw-bold">Vision</h5>
+                <p>
+                  Translating Words … Connecting Cultures! Loc Camp’s vision is
+                  based on a culture of openness, accountability and integrity,
+                  to become one of the leading, fast-growing, and most
+                  innovative, creative & cost-effective language service
+                  providers in the world.
+                </p>
+              </div>
+              <div class="mission px-5 py-4 mb-4">
+                <h5 class="mb-3 fw-bold">Our Mission</h5>
+                <p>
+                  Helping preserve languages and heritage cross the globe
+                  improving worldwide communication through accurate, localized
+                  translation and interpretation services. We aim to be a
+                  stepping stone to new markets and help
+                </p>
+              </div>
+              <div class="objective px-5 py-4">
+                <h5 class="mb-3 fw-bold">objective</h5>
+                <p>
+                  Helping preserve languages and heritage cross the globe
+                  improving worldwide communication through accurate, localized
+                  translation and interpretation services. We aim to be a
+                  stepping stone to new markets and help
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-5 order-lg-2 order-1">
+              <img
+                width="100%"
+                src="./assests/images/about-us-img.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Categories Start -->
+      <section id="categories" class="py-5">
+        <div class="container px-lg-5">
+          <h3 class="text-center fw-bold mb-4">Our Categories</h3>
+          <p class="text-center container mb-5">
+            Lorem ipsum dolor sit amet consectetur. Nulla felis consectetur
+            aliquet neque condimentum non. Sed sagittis libero condimentum
+            bibendum venenatis. Nulla feugiat ut proin facilisis in at et sit.
+            In est semper aliquet porta ultricies. Elementum blandit sed risus
+            amet non.
+          </p>
+          <div class="row allCategories">
+            <div class="col-lg-4 col-md-6 mb-4">
+              <a href="#">
+                <div id="software" class="container px-4 py-3">
+                  <h5 class="fw-semibold">software house</h5>
+                  <div class="row align-items-center">
+                    <div class="col-9">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor
+                        sit amet consectetur.
+                      </p>
+                    </div>
+                    <div class="col-3 text-center">
+                      <i class="fa-regular fa-file-code"></i>
+                    </div>
+                  </div>
+                  <p class="fw-semibold">
+                    <i class="fa-solid fa-angles-right"></i> Click to learn more
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-3">
+              <a href="#">
+                <div id="business" class="container px-4 py-3">
+                  <h5 class="fw-semibold">business house</h5>
+                  <div class="row align-items-center">
+                    <div class="col-9">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor
+                        sit amet consectetur.
+                      </p>
+                    </div>
+                    <div class="col-3 text-center">
+                      <i class="fa-solid fa-award"></i>
+                    </div>
+                  </div>
+                  <p class="fw-semibold">
+                    <i class="fa-solid fa-angles-right"></i> Click to learn more
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-3">
+              <a href="#">
+                <div id="marketing" class="container px-4 py-3">
+                  <h5 class="fw-semibold">Marketing house</h5>
+                  <div class="row align-items-center">
+                    <div class="col-9">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor
+                        sit amet consectetur.
+                      </p>
+                    </div>
+                    <div class="col-3 text-center">
+                      <i class="fa-solid fa-arrow-trend-up"></i>
+                    </div>
+                  </div>
+                  <p class="fw-semibold">
+                    <i class="fa-solid fa-angles-right"></i> Click to learn more
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-6 mb-3">
+              <a href="#">
+                <div id="e-marketing" class="container px-4 py-3">
+                  <h5 class="fw-semibold">E-Marketing house</h5>
+                  <div class="row align-items-center">
+                    <div class="col-9">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor
+                        sit amet consectetur.
+                      </p>
+                    </div>
+                    <div class="col-3 text-center">
+                      <i class="fa-regular fa-bookmark"></i>
+                    </div>
+                  </div>
+                  <p class="fw-semibold">
+                    <i class="fa-solid fa-angles-right"></i> Click to learn more
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-6 mb-3">
+              <a href="#">
+                <div id="media" class="container px-4 py-3">
+                  <h5 class="fw-semibold">Media house</h5>
+                  <div class="row align-items-center">
+                    <div class="col-9">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor
+                        sit amet consectetur.
+                      </p>
+                    </div>
+                    <div class="col-3 text-center">
+                      <i class="fa-regular fa-envelope-open"></i>
+                    </div>
+                  </div>
+                  <p class="fw-semibold">
+                    <i class="fa-solid fa-angles-right"></i> Click to learn more
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Reels Start -->
+      <section id="reels" class="py-5">
+        <h3 class="text-center fw-bold my-5">Reels</h3>
+        <div class="container-xl px-md-4 px-3 pb-3">
+          <div class="row align-items-end">
+            <div class="col-lg-6 mainReel px-2 mb-3">
+              <div class="card p-md-3 p-2">
+                <img
+                  hidden
+                  src="./assests/images/reel1.jpg"
+                  alt=""
+                  class="card-img-top"
+                />
+                <iframe
+                  width="100%"
+                  src="https://www.youtube.com/embed/-uaQ10YJSG4"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+                <div class="card-body p-0 pt-2">
+                  <div class="container">
+                    <div class="row card-title align-items-center">
+                      <h5 class="col-6 px-0">Mohamed El-hossiny</h5>
+                      <div class="col-6 px-0 text-end mb-2">
+                        <a href="" class="btn px-3 py-2">Tech Category</a>
+                      </div>
+                      <p class="px-0 mb-0">
+                        Lorem ipsum dolor sit amet consectetur. Nulla felis
+                        consectetur aliquet neque condimentum non. Sed sagittis
+                        libero
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 px-0 subReel mini-cards mb-3">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <!-- start of card -->
+                  <div class="col-sm-6 my-2">
+                    <div class="card p-md-3 p-2">
+                      <img
+                        src="./assests/images/reel1.jpg"
+                        data-reelUrl="https://www.youtube.com/embed/-uaQ10YJSG4"
+                        alt=""
+                        class="card-img-top"
+                      />
+                      <div class="reelCover">
+                        <i class="fa-solid fa-play"></i>
+                      </div>
+                      <div class="card-body p-0 pt-2">
+                        <div class="container">
+                          <div class="row card-title align-items-center">
+                            <h5 class="col-8 px-0 fw-semibold">
+                              Mohamed El-hossiny
+                            </h5>
+                            <div class="col-4 px-0 text-end mb-2">
+                              <a href="" class="btn px-1">Tech Category</a>
+                            </div>
+                            <p class="px-0 mb-0">
+                              1 Lorem ipsum dolor sit amet consectetur. Nulla
+                              felis consectetur aliquet neque condimentum non.
+                              Sed sagittis libero
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end of card -->
+                  <div class="col-sm-6 my-2">
+                    <div class="card p-md-3 p-2">
+                      <img
+                        src="./assests/images/reel2.jpg"
+                        data-reelUrl="https://www.youtube.com/embed/TB58g9mcDDg"
+                        alt=""
+                        class="card-img-top"
+                      />
+                      <div class="reelCover">
+                        <i class="fa-solid fa-play"></i>
+                      </div>
+                      <div class="card-body p-0 pt-2">
+                        <div class="container">
+                          <div class="row card-title align-items-center">
+                            <h5 class="col-8 px-0 fw-semibold">
+                              Mohamed Abo-Oubida
+                            </h5>
+                            <div class="col-4 px-0 text-end mb-2">
+                              <a href="" class="btn px-1">Tech Category</a>
+                            </div>
+                            <p class="px-0 mb-0">
+                              2 Lorem ipsum dolor sit amet consectetur. Nulla
+                              felis consectetur aliquet neque condimentum non.
+                              Sed sagittis libero
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 my-2">
+                    <div class="card p-md-3 p-2">
+                      <img
+                        src="./assests/images/reel3.jpg"
+                        data-reelUrl="https://www.youtube.com/embed/NJIOQyIflV4"
+                        alt=""
+                        class="card-img-top"
+                      />
+                      <div class="reelCover">
+                        <i class="fa-solid fa-play"></i>
+                      </div>
+                      <div class="card-body p-0 pt-2">
+                        <div class="container">
+                          <div class="row card-title align-items-center">
+                            <h5 class="col-8 px-0 fw-semibold">Hamza Nasr</h5>
+                            <div class="col-4 px-0 text-end mb-2">
+                              <a href="" class="btn px-1">Tech Category</a>
+                            </div>
+                            <p class="px-0 mb-0">
+                              3 Lorem ipsum dolor sit amet consectetur. Nulla
+                              felis consectetur aliquet neque condimentum non.
+                              Sed sagittis libero
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 my-2">
+                    <div class="card p-md-3 p-2">
+                      <img
+                        src="./assests/images/reel4.jpg"
+                        data-reelUrl="https://www.youtube.com/embed/hpsbZf5YvOI"
+                        alt=""
+                        class="card-img-top"
+                      />
+                      <div class="reelCover">
+                        <i class="fa-solid fa-play"></i>
+                      </div>
+                      <div class="card-body p-0 pt-2">
+                        <div class="container">
+                          <div class="row card-title align-items-center">
+                            <h5 class="col-8 px-0 fw-semibold">
+                              Mohamed El-hossiny
+                            </h5>
+                            <div class="col-4 px-0 text-end mb-2">
+                              <a href="" class="btn px-1">Tech Category</a>
+                            </div>
+                            <p class="px-0 mb-0">
+                              4 Lorem ipsum dolor sit amet consectetur. Nulla
+                              felis consectetur aliquet neque condimentum non.
+                              Sed sagittis libero
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 more-reels text-center mt-3">
+              <a href="reels.html" class="btn col-lg-4 col-md-6 col-10 rounded">
+                More Reels</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio Start -->
+      <section id="portfolio" class="py-5">
+        <div class="container">
+          <h3 class="text-center fw-bold">Portfolio</h3>
+          <p class="text-center px-md-5 px-1 my-5">
+            Lorem ipsum dolor sit amet consectetur. Nulla felis consectetur
+            aliquet neque condimentum non. Sed sagittis libero condimentum
+            bibendum venenatis. Nulla feugiat ut proin facilisis in at et sit.
+            In est semper aliquet porta ultricies. Elementum blandit sed risus
+            amet non.
+          </p>
+          <div class="swiper mb-5">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card">
+                  <img
+                    src="./assests/images/video.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body text-start">
+                    <h5 class="card-title fw-semibold">For-Students</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur. Nulla felis
+                      consectetur aliquet neque condimentum non. Sed sagittis
+                      libero
+                    </p>
+                    <a href="./project.html" class="btn col-12">More Details</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img
+                    src="./assests/images/video-1.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body text-start">
+                    <h5 class="card-title fw-semibold">Visit Egypt</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur. Nulla felis
+                      consectetur aliquet neque condimentum non. Sed sagittis
+                      libero
+                    </p>
+                    <a href="./project.html" class="btn col-12">More Details</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img
+                    src="./assests/images/video-2.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body text-start">
+                    <h5 class="card-title fw-semibold">Shela App</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur. Nulla felis
+                      consectetur aliquet neque condimentum non. Sed sagittis
+                      libero
+                    </p>
+                    <a href="./project.html" class="btn col-12">More Details</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img
+                    src="./assests/images/video-2.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body text-start">
+                    <h5 class="card-title fw-semibold">Shela App</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur. Nulla felis
+                      consectetur aliquet neque condimentum non. Sed sagittis
+                      libero
+                    </p>
+                    <a href="./project.html" class="btn col-12">More Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next fw-bold"></div>
+            <div class="swiper-button-prev fw-bold"></div>
+          </div>
+          <div class="more-projects text-center">
+            <a href="portfolio.html" class="btn col-lg-4 col-md-6 col-10"
+              >More Projects</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- Team Start -->
+      <section id="team" class="py-5">
+        <div class="container">
+          <h3 class="text-center fw-bold">Expert Team</h3>
+          <p class="text-center px-md-5 px-1 my-5">
+            Lorem ipsum dolor sit amet consectetur. Nulla felis consectetur
+            aliquet neque condimentum non. Sed sagittis libero condimentum
+            bibendum venenatis. Nulla feugiat ut proin facilisis in at et sit.
+            In est semper aliquet porta ultricies. Elementum blandit sed risus
+            amet non.
+          </p>
+          <div class="swiper mb-5">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="pb-1 rounded-4">
+                  <img src="./assests/images/photo.png" class="" alt="..." />
+                  <div
+                    class="layout-1 d-flex flex-wrap text-start px-4 align-items-end"
+                  >
+                    <div class="col-12">
+                      <h5 class="fw-bold">Hazim Mo</h5>
+                      <p class="fw-semibold mb-1">
+                        Position: Full-stack developer
+                      </p>
+                      <p class="fw-semibold">
+                        Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor
+                        sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="layout-2 d-flex align-items-center">
+                    <div class="text-center col-12">
+                      <a target="_blank" href="#" class="btn"
+                        ><i class="fa-brands fa-square-facebook"></i
+                      ></a>
+                      <a target="_blank" href="#" class="btn"
+                        ><i class="fa-brands fa-square-snapchat"></i
+                      ></a>
+                      <a target="_blank" href="#" class="btn"
+                        ><i class="fa-solid fa-bitcoin-sign"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="pb-1 rounded-4">
+                  <img src="./assests/images/photo-1.png" class="" alt="..." />
+                  <div
+                    class="layout-1 d-flex flex-wrap text-start px-4 align-items-end"
+                  >
+                    <div class="col-12">
+                      <h5 class="fw-bold">Hazim Mo</h5>
+                      <p class="fw-semibold mb-1">
+                        Position: Full-stack developer
+                      </p>
+                      <p class="fw-semibold">
+                        Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor
+                        sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="layout-2 d-flex align-items-center">
+                    <div class="text-center col-12">
+                      <a target="_blank" href="#" class="btn"
+                        ><i class="fa-brands fa-square-facebook"></i
+                      ></a>
+                      <a target="_blank" href="#" class="btn"
+                        ><i class="fa-brands fa-square-snapchat"></i
+                      ></a>
+                      <a target="_blank" href="#" class="btn"
+                        ><i class="fa-solid fa-bitcoin-sign"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="pb-1 rounded-4">
+                  <img src="./assests/images/photo-2.png" class="" alt="..." />
+                  <div
+                    class="layout-1 d-flex flex-wrap text-start px-4 align-items-end"
+                  >
+                    <div class="col-12">
+                      <h5 class="fw-bold">Hazim Mo</h5>
+                      <p class="fw-semibold mb-1">
+                        Position: Full-stack developer
+                      </p>
+                      <p class="fw-semibold">
+                        Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor
+                        sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="layout-2 d-flex align-items-center">
+                    <div class="text-center col-12">
+                      <a target="_blank" href="#" class="btn"
+                        ><i class="fa-brands fa-square-facebook"></i
+                      ></a>
+                      <a target="_blank" href="#" class="btn"
+                        ><i class="fa-brands fa-square-snapchat"></i
+                      ></a>
+                      <a target="_blank" href="#" class="btn"
+                        ><i class="fa-solid fa-bitcoin-sign"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="pb-1 rounded-4">
+                  <img src="./assests/images/photo-3.png" class="" alt="..." />
+                  <div
+                    class="layout-1 d-flex flex-wrap text-start px-4 align-items-end"
+                  >
+                    <div class="col-12">
+                      <h5 class="fw-bold">Hazim Mo</h5>
+                      <p class="fw-semibold mb-1">
+                        Position: Full-stack developer
+                      </p>
+                      <p class="fw-semibold">
+                        Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor
+                        sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="layout-2 d-flex align-items-center">
+                    <div class="text-center col-12">
+                      <a target="_blank" href="#" class="btn"
+                        ><i class="fa-brands fa-square-facebook"></i
+                      ></a>
+                      <a target="_blank" href="#" class="btn"
+                        ><i class="fa-brands fa-square-snapchat"></i
+                      ></a>
+                      <a target="_blank" href="#" class="btn"
+                        ><i class="fa-solid fa-bitcoin-sign"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="pb-1 rounded-4">
+                  <img src="./assests/images/photo.png" class="" alt="..." />
+                  <div
+                    class="layout-1 d-flex flex-wrap text-start px-4 align-items-end"
+                  >
+                    <div class="col-12">
+                      <h5 class="fw-bold">Hazim Mo</h5>
+                      <p class="fw-semibold mb-1">
+                        Position: Full-stack developer
+                      </p>
+                      <p class="fw-semibold">
+                        Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor
+                        sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="layout-2 d-flex align-items-center">
+                    <div class="text-center col-12">
+                      <a target="_blank" href="#" class="btn"
+                        ><i class="fa-brands fa-square-facebook"></i
+                      ></a>
+                      <a target="_blank" href="#" class="btn"
+                        ><i class="fa-brands fa-square-snapchat"></i
+                      ></a>
+                      <a target="_blank" href="#" class="btn"
+                        ><i class="fa-solid fa-bitcoin-sign"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="pb-1 rounded-4">
+                  <img src="./assests/images/photo-1.png" class="" alt="..." />
+                  <div
+                    class="layout-1 d-flex flex-wrap text-start px-4 align-items-end"
+                  >
+                    <div class="col-12">
+                      <h5 class="fw-bold">Hazim Mo</h5>
+                      <p class="fw-semibold mb-1">
+                        Position: Full-stack developer
+                      </p>
+                      <p class="fw-semibold">
+                        Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor
+                        sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="layout-2 d-flex align-items-center">
+                    <div class="text-center col-12">
+                      <a target="_blank" href="#" class="btn"
+                        ><i class="fa-brands fa-square-facebook"></i
+                      ></a>
+                      <a target="_blank" href="#" class="btn"
+                        ><i class="fa-brands fa-square-snapchat"></i
+                      ></a>
+                      <a target="_blank" href="#" class="btn"
+                        ><i class="fa-solid fa-bitcoin-sign"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="pb-1 rounded-4">
+                  <img src="./assests/images/photo-2.png" class="" alt="..." />
+                  <div
+                    class="layout-1 d-flex flex-wrap text-start px-4 align-items-end"
+                  >
+                    <div class="col-12">
+                      <h5 class="fw-bold">Hazim Mo</h5>
+                      <p class="fw-semibold mb-1">
+                        Position: Full-stack developer
+                      </p>
+                      <p class="fw-semibold">
+                        Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor
+                        sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="layout-2 d-flex align-items-center">
+                    <div class="text-center col-12">
+                      <a target="_blank" href="#" class="btn"
+                        ><i class="fa-brands fa-square-facebook"></i
+                      ></a>
+                      <a target="_blank" href="#" class="btn"
+                        ><i class="fa-brands fa-square-snapchat"></i
+                      ></a>
+                      <a target="_blank" href="#" class="btn"
+                        ><i class="fa-solid fa-bitcoin-sign"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="pb-1 rounded-4">
+                  <img src="./assests/images/photo-3.png" class="" alt="..." />
+                  <div
+                    class="layout-1 d-flex flex-wrap text-start px-4 align-items-end"
+                  >
+                    <div class="col-12">
+                      <h5 class="fw-bold">Hazim Mo</h5>
+                      <p class="fw-semibold mb-1">
+                        Position: Full-stack developer
+                      </p>
+                      <p class="fw-semibold">
+                        Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor
+                        sit amet consectetur.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="layout-2 d-flex align-items-center">
+                    <div class="text-center col-12">
+                      <a target="_blank" href="#" class="btn"
+                        ><i class="fa-brands fa-square-facebook"></i
+                      ></a>
+                      <a target="_blank" href="#" class="btn"
+                        ><i class="fa-brands fa-square-snapchat"></i
+                      ></a>
+                      <a target="_blank" href="#" class="btn"
+                        ><i class="fa-solid fa-bitcoin-sign"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next fw-bold"></div>
+            <div class="swiper-button-prev fw-bold"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- ===== End Of Main ===== -->
+    <!-- ===== Footer ===== -->
+    <footer class="py-4">
+      <div class="container px-lg-5 px-sm-2">
+        <div class="navbar navbar-expand-md mb-3">
+          <div class="container text-md-start text-center">
+            <a class="navbar-brand col-md-3 col-12" href="#">
+              <svg
+                id="logo-86"
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="ccustom"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M25.5557 11.6853C23.9112 10.5865 21.9778 10 20 10V0C23.9556 0 27.8224 1.17298 31.1114 3.37061C34.4004 5.56823 36.9638 8.69181 38.4776 12.3463C39.9913 16.0008 40.3874 20.0222 39.6157 23.9018C38.844 27.7814 36.9392 31.3451 34.1421 34.1421C31.3451 36.9392 27.7814 38.844 23.9018 39.6157C20.0222 40.3874 16.0008 39.9913 12.3463 38.4776C8.69181 36.9638 5.56823 34.4004 3.37061 31.1114C1.17298 27.8224 0 23.9556 0 20H10C10 21.9778 10.5865 23.9112 11.6853 25.5557C12.7841 27.2002 14.3459 28.4819 16.1732 29.2388C18.0004 29.9957 20.0111 30.1937 21.9509 29.8078C23.8907 29.422 25.6725 28.4696 27.0711 27.0711C28.4696 25.6725 29.422 23.8907 29.8078 21.9509C30.1937 20.0111 29.9957 18.0004 29.2388 16.1732C28.4819 14.3459 27.2002 12.7841 25.5557 11.6853Z"
+                  fill="#007DFC"
+                ></path>
+                <path
+                  class="ccustom"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M10 5.16562e-07C10 1.31322 9.74135 2.61358 9.2388 3.82683C8.73625 5.04009 7.99966 6.14248 7.07107 7.07107C6.14249 7.99966 5.0401 8.73625 3.82684 9.2388C2.61358 9.74134 1.31322 10 5.4439e-06 10L5.00679e-06 20C2.62644 20 5.22716 19.4827 7.65368 18.4776C10.0802 17.4725 12.285 15.9993 14.1421 14.1421C15.9993 12.285 17.4725 10.0802 18.4776 7.65367C19.4827 5.22715 20 2.62643 20 -3.81469e-06L10 5.16562e-07Z"
+                  fill="#007DFC"
+                ></path>
+              </svg>
+
+              Logoipsum
+            </a>
+            <div id="navbarSupportedContent" class="col-md col-12">
+              <ul
+                class="navbar-nav justify-content-md-end justify-content-center mb-2 mb-lg-0"
+              >
+                <li class="nav-item me-2 mb-2">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item me-2 mb-2 dropdown">
+                  <a
+                    class="nav-link"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    About Us
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">About Us 1</a></li>
+                    <li><a class="dropdown-item" href="#">About Us 2</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item me-2 mb-2">
+                  <a class="nav-link" aria-current="page" href="#">Services</a>
+                </li>
+                <li class="nav-item me-2 mb-2">
+                  <a
+                    class="nav-link"
+                    aria-current="page"
+                    href="./contact-us.html"
+                    >Contact Us</a
+                  >
+                </li>
+                <li class="nav-item me-2 mb-2">
+                  <a class="nav-link scroll-top" aria-current="page"
+                    ><i class="fa-solid fa-chevron-up"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row px-3">
+          <div
+            class="col-md-6 col-12 order-sm-1 order-2 text-md-start text-center"
+          >
+            © 2024 — Loc-camp All Rights Reserved
+          </div>
+          <div
+            class="col-md-6 col-12 order-sm-2 order-1 text-md-end text-center mb-sm-0 mb-3"
+          >
+            <i class="fa-regular fa-envelope"></i> example@gamil.com
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ===== End Of Footer ===== -->
+    <!-- Scripts -->
+    <!-- bootstrap JS 5.3.2 -->
+    <script src="./assests/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- ===================
+      #  Injected in this page
+        =================== -->
+    <!-- Swiper Js -->
+    <script src="./assests/vendors/swiper/swiper-bundle.min.js"></script>
+    <script src="assests/js/homePage.js"></script>
+
+    <!-- ===================
+      #  End of injection
+        =================== -->
+    <!-- main JS -->
+    <script src="./assests/js/main.js"></script>
+  </body>
+</html>
